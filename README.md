@@ -42,8 +42,9 @@ File extensions:
 * Deniz Akşimşek (dz4k) for the original syntax highlighter for VS Code / VS Codium.
 * The hyperscript and HTMX community.
 
-
 ### References
 
-* [_hyperscript](https://hyperscript.org/)
+* [Hyperscript](https://hyperscript.org/)
 * [HTMX](https://htmx.org)
+* https://marketplace.visualstudio.com/items?itemName=dz4k.vscode-hyperscript-org
+* https://github.com/dz4k/vscode-hyperscript
