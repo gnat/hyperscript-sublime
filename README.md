@@ -12,6 +12,9 @@ Hyperscript is the companion project of [HTMX](https://htmx.org).
 * No long event chains / christmas trees.
 * Null safe.
 * Saves a ton of code in components.
+
+### What is the relationship between HTMX and Hyperscript?
+
 * HTMX and Hyperscript are sibling projects.
 * They are designed to work well together, HTMX for server-interactions and Hyperscript for pure front-end interactions, but neither requires the other.
 
