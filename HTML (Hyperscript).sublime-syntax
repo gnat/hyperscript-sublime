@@ -1,0 +1,68 @@
+%YAML 1.2
+---
+name: HTML (Hyperscript)
+scope: text.html.basic
+version: 2
+
+extends: Packages/HTML/HTML.sublime-syntax
+
+contexts:
+  script-hyperscript:
+    - meta_scope: meta.tag.script.begin.html
+    - include: script-common
+    - match: '>'
+      scope: punctuation.definition.tag.end.html
+      set:
+        - include: script-close-tag
+        - match: (?=\S)
+          embed: scope:source.hyperscript
+          embed_scope: source.hyperscript.embedded.html
+          escape: (?i)(?=(?:-->\s*)?</script)
+
+  script-type-decider:
+    - match: (?=(?i:text/hyperscript{{unquoted_attribute_break}}|'text/hyperscript'|"text/hyperscript"))
+      set:
+        - script-hyperscript
+        - tag-generic-attribute-meta
+        - tag-generic-attribute-value
+
+###[ HYPERSCRIPT ATTRIBUTE ]########################################################
+
+  tag-attributes:
+    - meta_prepend: true
+    - include: tag-hyperscript-attribute
+
+  tag-hyperscript-attribute:
+    - match: (?i:_|hs|data-hs){{attribute_name_break}}
+      scope: entity.other.attribute-name.hyperscript.html
+      push:
+        - tag-hyperscript-attribute-meta
+        - tag-hyperscript-attribute-assignment
+
+  tag-hyperscript-attribute-meta:
+    - meta_include_prototype: false
+    - meta_scope: meta.attribute-with-value.hyperscript.html
+    - include: immediately-pop
+
+  tag-hyperscript-attribute-assignment:
+    - match: =
+      scope: punctuation.separator.key-value.html
+      set: tag-hyperscript-attribute-value
+    - include: else-pop
+
+  tag-hyperscript-attribute-value:
+    - match: \"
+      scope: meta.string.html string.quoted.double.html punctuation.definition.string.begin.html
+      embed: scope:source.hyperscript
+      embed_scope: meta.string.html meta.interpolation.html source.hyperscript.embedded.html
+      escape: \"
+      escape_captures:
+        0: meta.string.html string.quoted.double.html punctuation.definition.string.end.html
+    - match: \'
+      scope: meta.string.html string.quoted.single.html punctuation.definition.string.begin.html
+      embed: scope:source.hyperscript
+      embed_scope: meta.string.html meta.interpolation.html source.hyperscript.embedded.html
+      escape: \'
+      escape_captures:
+        0: meta.string.html string.quoted.single.html punctuation.definition.string.end.html
+    - include: else-pop
