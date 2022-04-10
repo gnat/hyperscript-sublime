@@ -20,6 +20,7 @@ contexts:
           escape: (?i)(?=(?:-->\s*)?</script)
 
   script-type-decider:
+    - meta_prepend: true
     - match: (?=(?i:text/hyperscript{{unquoted_attribute_break}}|'text/hyperscript'|"text/hyperscript"))
       set:
         - script-hyperscript
