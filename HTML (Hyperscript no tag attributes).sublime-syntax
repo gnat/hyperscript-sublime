@@ -9,15 +9,37 @@ extends: Packages/HTML/HTML.sublime-syntax
 contexts:
   script-hyperscript:
     - meta_scope: meta.tag.script.begin.html
-    - include: script-common
     - match: '>'
       scope: punctuation.definition.tag.end.html
-      set:
-        - include: script-close-tag
-        - match: (?=\S)
-          embed: scope:source.hyperscript
-          embed_scope: source.hyperscript.embedded.html
-          escape: (?i)(?=(?:-->\s*)?</script)
+      set: script-hyperscript-content
+    - include: script-common
+
+  script-hyperscript-content:
+    - meta_include_prototype: false
+    - match: \s*((<!\[)(CDATA)(\[))
+      captures:
+        1: meta.tag.sgml.cdata.html
+        2: punctuation.definition.tag.begin.html
+        3: keyword.declaration.cdata.html
+        4: punctuation.definition.tag.begin.html
+      pop: 1  # make sure to match only once
+      embed: scope:source.hyperscript
+      embed_scope: meta.tag.sgml.cdata.html source.hyperscript.embedded.html
+      escape: \]\]>
+      escape_captures:
+        0: meta.tag.sgml.cdata.html punctuation.definition.tag.end.html
+    - match: '{{script_content_begin}}'
+      captures:
+        1: comment.block.html punctuation.definition.comment.begin.html
+      pop: 1  # make sure to match only once
+      embed: scope:source.hyperscript
+      embed_scope: source.hyperscript.embedded.html
+      escape: '{{script_content_end}}'
+      escape_captures:
+        1: source.hyperscript.embedded.html
+        2: comment.block.html punctuation.definition.comment.end.html
+        3: source.hyperscript.embedded.html
+        4: comment.block.html punctuation.definition.comment.end.html
 
   script-type-decider:
     - meta_prepend: true
@@ -26,4 +48,3 @@ contexts:
         - script-hyperscript
         - tag-generic-attribute-meta
         - tag-generic-attribute-value
-
