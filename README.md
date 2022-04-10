@@ -38,8 +38,9 @@ File extensions:
 
 ### Special Thanks
 
-* Carson Gross, creator of hyperscript and HTMX.
-* Deniz Akşimşek (dz4k) for the original syntax highlighter for VS Code / VS Codium.
+* [Carson Gross](https://github.com/bigskysoftware), creator of hyperscript and HTMX.
+* [Deniz Akşimşek (dz4k)](https://github.com/dz4k) for the original syntax highlighter for VS Code / VS Codium.
+* [deathaxe](https://github.com/deathaxe) and [jfcherng](https://github.com/jfcherng) for ensuring a smooth launch to Sublime Package Control.
 * The hyperscript and HTMX community.
 
 ### References
