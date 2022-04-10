@@ -1,7 +1,7 @@
 %YAML 1.2
 ---
 name: HTML (Hyperscript no tag attributes)
-scope: text.html.basic
+scope: text.html.hyperscript.basic
 version: 2
 
 extends: Packages/HTML/HTML.sublime-syntax
