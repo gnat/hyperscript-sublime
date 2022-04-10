@@ -13,12 +13,12 @@ Hyperscript is the companion project of [HTMX](https://htmx.org).
 * Null safe.
 * Saves a ton of code in components.
 
+[![What is hyperscript / HTMX ?](http://img.youtube.com/vi/u2rjnLJ1M98/0.jpg)](http://www.youtube.com/watch?v=u2rjnLJ1M98 "What is hyperscript / HTMX ?")
+
 ### What is the relationship between HTMX and Hyperscript?
 
 * HTMX and Hyperscript are sibling projects.
 * They are designed to work well together, HTMX for server-interactions and Hyperscript for pure front-end interactions, but neither requires the other.
-
-[![What is hyperscript / HTMX ?](http://img.youtube.com/vi/u2rjnLJ1M98/0.jpg)](http://www.youtube.com/watch?v=u2rjnLJ1M98 "What is hyperscript / HTMX ?")
 
 ### Highlighting enabled for...
 
