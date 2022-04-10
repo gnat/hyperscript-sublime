@@ -1,10 +1,26 @@
-# [_hyperscript](https://hyperscript.org/) for Sublime Text
+# [Hyperscript](https://hyperscript.org/) for Sublime Text
 
-Provides syntax highlighting for the Hyperscript scripting language, both embedded in HTML and in a standalone file.
+Provides syntax highlighting for the Hyperscript (`_hyperscript`) scripting language, both embedded in HTML and in a standalone file.
 
-Pairs well with HTMX.
+It is a companion project of [HTMX](https://htmx.org).
 
-### Highlighting enabled for
+### What is hyperscript / HTMX?
+
+* Event-oriented language.
+* [Locality of Behaviour](https://htmx.org/essays/locality-of-behaviour) in components instead of long javascript modules.
+* Async transparency.
+* No long event chains.
+* Null safe.
+* Saves a ton of code in components.
+
+[![What is hyperscript / HTMX ?](http://img.youtube.com/vi/u2rjnLJ1M98/0.jpg)](http://www.youtube.com/watch?v=u2rjnLJ1M98 "What is hyperscript / HTMX ?")
+
+### What is the relationship between HTMX and Hyperscript?
+
+* HTMX and Hyperscript are sibling projects.
+* They are designed to work well together, HTMX for server-interactions and Hyperscript for pure front-end interactions, but neither requires the other.
+
+### Highlighting enabled for...
 
 Tag attributes supported:
 
@@ -26,5 +42,8 @@ File extensions:
 * Deniz Akşimşek (dz4k) for the original syntax highlighter for VS Code / VS Codium.
 * The hyperscript and HTMX community.
 
-[_hyperscript](https://hyperscript.org/)
-[HTMX](https://htmx.org)
+
+### References
+
+* [_hyperscript](https://hyperscript.org/)
+* [HTMX](https://htmx.org)
