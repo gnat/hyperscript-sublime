@@ -112,7 +112,7 @@
             <key>name</key>
             <string>storage.modifier.hyperscript</string>
             <key>match</key>
-            <string>\b(local|element|module|global)\b</string>
+            <string>\b(local|element|module|global|called)\b</string>
           </dict>
           <dict>
             <key>name</key>
