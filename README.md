@@ -59,7 +59,6 @@ Script tag:
 
 * [Hyperscript](https://hyperscript.org/)
 * [HTMX](https://htmx.org)
-* https://marketplace.visualstudio.com/items?itemName=dz4k.vscode-hyperscript-org
-* https://github.com/dz4k/vscode-hyperscript
 * [A first look at Hyperscript](https://putyourlightson.com/articles/a-first-look-at-hyperscript)
 * [Hyperscript Cheatsheet](https://thisweek.htmx.org/assets/2021-12-19/hyperscript-cheatsheet.pdf)
+* (Plugin for VSCode)[https://marketplace.visualstudio.com/items?itemName=dz4k.vscode-hyperscript-org]
