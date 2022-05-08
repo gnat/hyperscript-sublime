@@ -19,15 +19,11 @@ Provides syntax highlighting for the Hyperscript (`_hyperscript`) scripting lang
 
 Option A (Package Control. 🙏🏻 Soon!): `Preferences` ➡️ `Package Control` ➡️ `Install Package` ➡️ `Hyperscript` ➡️ ENTER
 
-Option B (Direct): `Preferences` ➡️ `Package Control` ➡️ `Browse Packages ...` ➡️ `cd User` ➡️ (Download and extract the latest.)[https://github.com/gnat/hyperscript-sublime/archive/refs/heads/main.zip]
+Option B (Direct): `Preferences` ➡️ `Package Control` ➡️ `Browse Packages ...` ➡️ `cd User` ➡️ [Download and extract the latest.](https://github.com/gnat/hyperscript-sublime/archive/refs/heads/main.zip)
 
 Turn it on: Open your file containing hyperscript! ➡️ `View` ➡️ `Syntax` ➡️ `Hyperscript` ➡️ `HTML (Hyperscript)`
 
-Enjoy!
-
-### Questions? Issues?
-
-Find the community (on the discord)[https://htmx.org/discord]!
+Enjoy! 🙂 Find the community [on the discord](https://htmx.org/discord)! Check out the [Hyperscript Cheatsheet](https://thisweek.htmx.org/assets/2021-12-19/hyperscript-cheatsheet.pdf)!
 
 ### What is the relationship between HTMX and Hyperscript?
 
@@ -46,15 +42,11 @@ Script tag:
 
 * `<script type="text/hyperscript"></script>`
 
-File extensions:
-
-* `*.hs`
-
 ### Suggested Sublime Color Schemes
 
-* (Ghostbusters)[https://github.com/gnat/sublime-ghostbusters]
-* Mariana (Comes with Sublime)
-* Monokai (Comes with Sublime)
+* [Ghostbusters](https://github.com/gnat/sublime-ghostbusters)
+* Mariana (Built-in)
+* Monokai (Built-in)
 
 ### Special Thanks
 
@@ -69,3 +61,5 @@ File extensions:
 * [HTMX](https://htmx.org)
 * https://marketplace.visualstudio.com/items?itemName=dz4k.vscode-hyperscript-org
 * https://github.com/dz4k/vscode-hyperscript
+* [A first look at Hyperscript](https://putyourlightson.com/articles/a-first-look-at-hyperscript)
+* [Hyperscript Cheatsheet](https://thisweek.htmx.org/assets/2021-12-19/hyperscript-cheatsheet.pdf)
