@@ -19,9 +19,9 @@ Provides syntax highlighting for the Hyperscript (`_hyperscript`) scripting lang
 
 Option A (Package Control. 🙏🏻 Soon!): `Preferences` ➡️ `Package Control` ➡️ `Install Package` ➡️ `Hyperscript` ➡️ ENTER
 
-Option B (Direct): `Preferences` ➡️ `Package Control` ➡️ `Browse Packages ...` ➡️ `cd User` ➡️ [Download and extract the latest.](https://github.com/gnat/hyperscript-sublime/archive/refs/heads/main.zip)
+Option B (Direct): `Preferences` ➡️ `Browse Packages ...` ➡️ `cd User` ➡️ [Download and extract the latest.](https://github.com/gnat/hyperscript-sublime/archive/refs/heads/main.zip)
 
-Turn it on: Open your file containing hyperscript! ➡️ `View` ➡️ `Syntax` ➡️ `Hyperscript` ➡️ `HTML (Hyperscript)`
+Turn it on: **Open your file containing hyperscript!** ➡️ `View` ➡️ `Syntax` ➡️ `Hyperscript` ➡️ `HTML (Hyperscript)`
 
 Enjoy! 🙂 Find the community [on the discord](https://htmx.org/discord)! Check out the [Hyperscript Cheatsheet](https://thisweek.htmx.org/assets/2021-12-19/hyperscript-cheatsheet.pdf)!
 
