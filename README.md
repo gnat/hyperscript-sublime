@@ -1,8 +1,8 @@
-# [Hyperscript](https://hyperscript.org/) for Sublime Text
+# [Hyperscript](https://hyperscript.org) for Sublime Text
 
 Provides syntax highlighting for the Hyperscript (`_hyperscript`) scripting language, both embedded in HTML and in a standalone file.
 
-Hyperscript is the companion project of [HTMX](https://htmx.org).
+[Hyperscript](https://hyperscript.org) is the companion project of [HTMX](https://htmx.org).
 
 ### What is hyperscript?
 
@@ -14,6 +14,20 @@ Hyperscript is the companion project of [HTMX](https://htmx.org).
 * Saves a ton of code in components.
 
 [![What is hyperscript / HTMX ?](http://img.youtube.com/vi/u2rjnLJ1M98/0.jpg)](http://www.youtube.com/watch?v=u2rjnLJ1M98 "What is hyperscript / HTMX ?")
+
+### Installation
+
+Option A (Package Control. 🙏🏻 Soon!): `Preferences` ➡️ `Package Control` ➡️ `Install Package` ➡️ `Hyperscript` ➡️ ENTER
+
+Option B (Direct): `Preferences` ➡️ `Package Control` ➡️ `Browse Packages ...` ➡️ `cd User` ➡️ (Download and extract the latest.)[https://github.com/gnat/hyperscript-sublime/archive/refs/heads/main.zip]
+
+Turn it on: Open your file containing hyperscript! ➡️ `View` ➡️ `Syntax` ➡️ `Hyperscript` ➡️ `HTML (Hyperscript)`
+
+Enjoy!
+
+### Questions? Issues?
+
+Find the community (on the discord)[https://htmx.org/discord]!
 
 ### What is the relationship between HTMX and Hyperscript?
 
@@ -35,6 +49,12 @@ Script tag:
 File extensions:
 
 * `*.hs`
+
+### Suggested Sublime Color Schemes
+
+* (Ghostbusters)[https://github.com/gnat/sublime-ghostbusters]
+* Mariana (Comes with Sublime)
+* Monokai (Comes with Sublime)
 
 ### Special Thanks
 
