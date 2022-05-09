@@ -44,7 +44,7 @@ Script tag:
 
 ### Suggested Sublime Color Schemes
 
-* [Ghostbusters](https://github.com/gnat/sublime-ghostbusters)
+* [Invader Zim](https://github.com/gnat/sublime-invader-zim)
 * Mariana (Built-in)
 * Monokai (Built-in)
 
