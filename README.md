@@ -4,6 +4,13 @@ Provides syntax highlighting for the Hyperscript (`_hyperscript`) scripting lang
 
 [Hyperscript](https://hyperscript.org) is the companion project of [HTMX](https://htmx.org).
 
+<a href="https://github.com/gnat/hyperscript-sublime/tags">
+    <img src="https://img.shields.io/github/v/tag/gnat/hyperscript-sublime?label=release&style=for-the-badge&color=%230288D1" /></a>
+<!--<a href="https://packagecontrol.io/packages/Sublime%20Outline%20Notes%20Publisher">
+    <img src="https://img.shields.io/packagecontrol/dt/Sublime%20Outline%20Notes%20Publisher?style=for-the-badge&color=%2315b713" /></a>-->
+<a href="https://www.sublimetext.com/">
+    <img src="https://img.shields.io/badge/Only%20For-Sublime-ff9800?logo=sublime%20text&style=for-the-badge" /></a>
+
 ### What is hyperscript?
 
 * Event-oriented language.
