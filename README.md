@@ -1,8 +1,8 @@
 # [Hyperscript](https://hyperscript.org) for Sublime Text
 
-Provides syntax highlighting for the Hyperscript (`_hyperscript`) scripting language, both embedded in HTML and in a standalone file.
+Provides syntax highlighting for the Hyperscript (`_hyperscript`) language, both embedded in HTML and in a standalone file.
 
-[Hyperscript](https://hyperscript.org) is the companion project of [HTMX](https://htmx.org).
+[Hyperscript](https://hyperscript.org) is the companion project of [HTMX](https://htmx.org). A recommended alternative to Stimulus, Alpine.js, jQuery.
 
 <a href="https://github.com/gnat/hyperscript-sublime/tags">
     <img src="https://img.shields.io/github/v/tag/gnat/hyperscript-sublime?label=release&style=for-the-badge&color=%230288D1" /></a>
@@ -11,16 +11,24 @@ Provides syntax highlighting for the Hyperscript (`_hyperscript`) scripting lang
 <a href="https://www.sublimetext.com/">
     <img src="https://img.shields.io/badge/Only%20For-Sublime-ff9800?logo=sublime%20text&style=for-the-badge" /></a>
 
-### What is hyperscript?
+### What is Hyperscript?
 
 * Event-oriented language.
-* [Locality of Behaviour](https://htmx.org/essays/locality-of-behaviour) in components instead of long javascript modules.
+* [Locality of Behaviour](https://htmx.org/essays/locality-of-behaviour) instead of verbose javascript modules.
 * Async transparency.
 * No long event chains / christmas trees.
 * Null safe.
+* Self-documenting natural syntax inspired by [Hypertalk](https://en.wikipedia.org/wiki/HyperTalk) and [AppleScript](https://en.wikipedia.org/wiki/AppleScript).
 * Saves a ton of code in components.
 
+See: [A First Look at Hyperscript](https://putyourlightson.com/articles/a-first-look-at-hyperscript)
+
 [![What is hyperscript / HTMX ?](http://img.youtube.com/vi/u2rjnLJ1M98/0.jpg)](http://www.youtube.com/watch?v=u2rjnLJ1M98 "What is hyperscript / HTMX ?")
+
+### Sample Highlighting
+
+![image](https://user-images.githubusercontent.com/24665/174639996-2daf319b-2d4c-4be7-93ac-4b3540908c2c.png)
+(Color scheme: [Invader Zim](https://github.com/gnat/sublime-invader-zim))
 
 ### Installation
 
