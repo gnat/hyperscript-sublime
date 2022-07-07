@@ -34,9 +34,11 @@ See: [A First Look at Hyperscript](https://putyourlightson.com/articles/a-first-
 
 Option A (Package Control. 🙏🏻 Soon!): `Preferences` ➡️ `Package Control` ➡️ `Install Package` ➡️ `Hyperscript` ➡️ ENTER
 
+Turn it on: `View` ➡️ `Syntax` ➡️ `Hyperscript` ➡️ `HTML (Hyperscript)`
+
 Option B (Direct): `Preferences` ➡️ `Browse Packages ...` ➡️ `cd User` ➡️ [Download and extract the latest.](https://github.com/gnat/hyperscript-sublime/archive/refs/heads/main.zip)
 
-Turn it on: `View` ➡️ `Syntax` ➡️ `Hyperscript` ➡️ `HTML (Hyperscript)`
+Turn it on: `View` ➡️ `Syntax` ➡️ `User` or `hyperscript-sublime` or `Hyperscript` ➡️ `HTML (Hyperscript)`
 
 Enjoy! 🙂 Find the community [on the discord](https://htmx.org/discord)! Check out the [Hyperscript Cheatsheet](https://thisweek.htmx.org/assets/2021-12-19/hyperscript-cheatsheet.pdf)!
 

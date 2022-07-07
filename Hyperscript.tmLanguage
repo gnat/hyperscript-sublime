@@ -14,6 +14,22 @@
         <string>$</string>
       </dict>
       <dict>
+        <key>name</key>
+        <string>comment.line.double-slash.hyperscript</string>
+        <key>begin</key>
+        <string>\/\/</string>
+        <key>end</key>
+        <string>$</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>comment.line.multi-line.hyperscript</string>
+        <key>begin</key>
+        <string>\/\*</string>
+        <key>end</key>
+        <string>\*\/</string>
+      </dict>
+      <dict>
         <key>include</key>
         <string>#possessive</string>
       </dict>
